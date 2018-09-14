@@ -1,4 +1,5 @@
 
+
 # Find My Car - Parking Management System
 
 Find My Car - A cross platform mobile app to assist with finding car indoor and outdoor with the help of BLE and wifi sensors. The app offers two modes, a map mode which works similar to google maps and Augmented Reality (AR) mode, which is still under development but at POC stage and can easily be extended as needed.
@@ -21,6 +22,9 @@ The following demo videos are at a speed of 16x showing source to destination jo
 |Map Mode|Cam Mode  |
 |--|--|
 | ![MapMode](https://cdn.rawgit.com/faisalthaheem/findmycar/91fb1cc1/demo/map/map.gif) | ![Cam Mode/Augmented Reality Mode](https://cdn.rawgit.com/faisalthaheem/findmycar/f2541762/demo/cam/cam.gif) |
+
+Djisktra's algorithm is used to find the shortest path to the destination, following image illustrates the output of the algo
+![djisktra's algo](https://cdn.rawgit.com/faisalthaheem/findmycar/3e72e096/demo/djikstra.PNG)
 
 # Compiling
 Please use ionic framework to compile the app.
