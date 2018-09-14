@@ -14,6 +14,10 @@ Once the map is fed into the code and the app is packaged for the particular pro
 
 **Please note this code and it's derivative works for commercial use are licensed free for use only if you share the profits with your employees.**
 
+
+The following demo videos are at a speed of 16x showing source to destination journey of finding a vehicle. The current location marker keeps jumping around because neighborhood wifi ssids have been used which makes the trasmitted signal strengh unpredictable unlike in a commercially controlled environment where these parameters can be tuned to give a smoother user experience.
+
+
 |Map Mode|Cam Mode  |
 |--|--|
 | ![MapMode](https://cdn.rawgit.com/faisalthaheem/findmycar/91fb1cc1/demo/map/map.gif) | ![Cam Mode/Augmented Reality Mode](https://cdn.rawgit.com/faisalthaheem/findmycar/91fb1cc1/demo/cam/cam.gif) |
