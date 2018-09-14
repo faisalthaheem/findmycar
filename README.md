@@ -20,7 +20,7 @@ The following demo videos are at a speed of 16x showing source to destination jo
 
 |Map Mode|Cam Mode  |
 |--|--|
-| ![MapMode](https://cdn.rawgit.com/faisalthaheem/findmycar/91fb1cc1/demo/map/map.gif) | ![Cam Mode/Augmented Reality Mode](https://cdn.rawgit.com/faisalthaheem/findmycar/91fb1cc1/demo/cam/cam.gif) |
+| ![MapMode](https://cdn.rawgit.com/faisalthaheem/findmycar/91fb1cc1/demo/map/map.gif) | ![Cam Mode/Augmented Reality Mode](https://cdn.rawgit.com/faisalthaheem/findmycar/f2541762/demo/cam/cam.gif) |
 
 # Compiling
 Please use ionic framework to compile the app.
