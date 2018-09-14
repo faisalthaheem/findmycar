@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{pageTitle}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-fab bottom right [class.hide]="!trackingInProgress">
+    <button ion-fab color="danger" (click)="stopSearching()">
+      <ion-icon name="close"></ion-icon>
+    </button>
+  </ion-fab>
+
+
+  <div class="new-tracking" [class.hide]="trackingInProgress">
+    <ion-card>
+      <ion-card-header>
+        New Search
+      </ion-card-header>
+      <ion-card-content>
+          <ion-list>
+
+              <ion-item>
+                <ion-label fixed>Plate No</ion-label>
+                <ion-input type="text" [(ngModel)]="trackedPlate"></ion-input>
+              </ion-item>
+
+            </ion-list>
+
+            <button
+              ion-button full
+              (click)="newSearch()"
+            >
+            Find!
+            </button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div [class.hide]="!trackingInProgress">
+    <p>
+      Current Heading is {{currentHeading}} <br/>
+      Current Sensor: {{currBLESensorId}} | {{currBLESensorRssi}}
+    </p>
+
+    <ul>
+      <li *ngFor="let key of devicesKeys">
+        {{devices[key].name}} | {{devices[key].id}} | {{devices[key].rssi}}
+      </li>
+    </ul>
+
+
+    <img
+      class="pin"
+      src='assets/imgs/pin.png'
+      [ngStyle]="plstyle"
+    />
+  </div>
+
+  <img
+    class='arrow-left'
+    src='assets/imgs/left-arrow.png'
+    [class.hide]="!showLeftArrow"
+  />
+
+  <img
+    class='arrow-right'
+    src='assets/imgs/right-arrow.png'
+    [class.hide]="!showRightArrow"
+  />
+</ion-content>

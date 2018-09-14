@@ -1,0 +1,27 @@
+page-mapview {
+
+  .new-tracking{
+    background: white;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .mapcontainer {
+    // width: 1101px;
+    // height: 821px;
+    // background: url('assets/map/map.png') no-repeat;
+    overflow: scroll;
+  }
+
+  .scroll-content {
+    overflow: auto;
+  }
+
+  // ion-scroll {
+  //   white-space: nowrap;
+  //   width: 100%;
+  //   height: 100%;
+  // }
+}

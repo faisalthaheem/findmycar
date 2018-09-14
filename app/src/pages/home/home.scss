@@ -1,0 +1,29 @@
+page-home {
+  p, ul {
+    background-color: white;
+  }
+
+  .pin {
+    position: absolute;
+  }
+
+  .new-tracking{
+    background: white;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .arrow-left{
+    position: absolute;
+    top:40%;
+    left:0%;
+  }
+
+  .arrow-right{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+  }
+}

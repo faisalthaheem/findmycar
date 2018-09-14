@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>
+    App
+  </h1>
+  <p>
+    This is a barebone extendable application brought to you by Intelligent Transportation Systems Pakistan.
+  </p>
+  <p>
+      Source code is located at https://github.com/itspk/findmycar - please be sure to read the licensing before using this code.
+  </p>
+
+  <hr/>
+
+  <h1>
+    Acknowledgement(s)
+  </h1>
+  <p>
+    Icons made by <a rhef='https://www.flaticon.com/authors/smashicons'>Smashicons</a> from <a href='https://www.flaticon.com'>www.flaticon.com</a>
+  </p>
+  <p>
+    Icons made by <a rhef='https://www.flaticon.com/authors/vectors-market'>Vectors Market</a> from <a href='https://www.flaticon.com'>www.flaticon.com</a>
+  </p>
+  <p>
+    Icons made by <a rhef='https://www.flaticon.com/authors/dave-gandy'>Dave Gandy</a> from <a href='https://www.flaticon.com'>www.flaticon.com</a>
+  </p>
+
+  <hr/>
+
+  <h1>Diagnostics</h1>
+
+  <div>
+    <ul>
+      <li *ngFor="let key of devicesKeys">
+        {{devices[key].name}} | {{devices[key].id}} | {{devices[key].rssi}}
+      </li>
+    </ul>
+</div>
+
+</ion-content>

@@ -1,0 +1,82 @@
+{
+    "name": "myapp",
+    "version": "0.0.1",
+    "author": "Ionic Framework",
+    "homepage": "http://ionicframework.com/",
+    "private": true,
+    "scripts": {
+        "clean": "ionic-app-scripts clean",
+        "build": "ionic-app-scripts build",
+        "lint": "ionic-app-scripts lint",
+        "ionic:build": "ionic-app-scripts build",
+        "ionic:serve": "ionic-app-scripts serve"
+    },
+    "dependencies": {
+        "@angular/animations": "^5.2.11",
+        "@angular/common": "5.2.11",
+        "@angular/compiler": "5.2.11",
+        "@angular/compiler-cli": "5.2.11",
+        "@angular/core": "5.2.11",
+        "@angular/forms": "5.2.11",
+        "@angular/http": "5.2.11",
+        "@angular/platform-browser": "5.2.11",
+        "@angular/platform-browser-dynamic": "5.2.11",
+        "@ionic-native/ble": "^4.9.1",
+        "@ionic-native/camera-preview": "^4.9.0",
+        "@ionic-native/core": "4.8.0",
+        "@ionic-native/device-orientation": "^4.9.0",
+        "@ionic-native/file": "^4.10.0",
+        "@ionic-native/hotspot": "^4.11.0",
+        "@ionic-native/insomnia": "^4.9.1",
+        "@ionic-native/splash-screen": "4.8.0",
+        "@ionic-native/status-bar": "4.8.0",
+        "@ionic/storage": "2.1.3",
+        "cordova": "^8.0.0",
+        "cordova-android": "7.0.0",
+        "cordova-plugin-ble-central": "^1.2.2",
+        "cordova-plugin-camera-preview": "^0.10.0",
+        "cordova-plugin-compat": "^1.2.0",
+        "cordova-plugin-device": "^2.0.2",
+        "cordova-plugin-device-orientation": "^2.0.1",
+        "cordova-plugin-file": "^6.0.1",
+        "cordova-plugin-hotspot": "^1.2.10",
+        "cordova-plugin-insomnia": "^4.3.0",
+        "cordova-plugin-ionic-keyboard": "^2.1.2",
+        "cordova-plugin-ionic-webview": "^1.2.1",
+        "cordova-plugin-splashscreen": "^5.0.2",
+        "cordova-plugin-statusbar": "^2.4.2",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "ionic-angular": "3.9.2",
+        "ionicons": "3.0.0",
+        "raphael-pkg": "^1.0.0",
+        "rxjs": "5.5.11",
+        "sw-toolbox": "3.6.0",
+        "two.js": "^0.7.0-alpha.1",
+        "zone.js": "0.8.26"
+    },
+    "devDependencies": {
+        "@ionic/app-scripts": "3.1.10",
+        "typescript": "~2.6.2"
+    },
+    "description": "An Ionic project",
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-device": {},
+            "cordova-plugin-device-orientation": {},
+            "cordova-plugin-compat": {},
+            "cordova-plugin-ble-central": {},
+            "cordova-plugin-camera-preview": {},
+            "cordova-plugin-insomnia": {},
+            "cordova-plugin-ionic-keyboard": {},
+            "cordova-plugin-ionic-webview": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-file": {},
+            "cordova-plugin-hotspot": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}
